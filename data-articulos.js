@@ -395,7 +395,6 @@ const ARTICULOS = [
 <div class="note"><strong>Estos canales son para tu equipo, no para los usuarios finales.</strong> El número y el correo de soporte Musa atienden a las personas de tu organización que administran el programa. Los estudiantes resuelven sus dudas dentro del propio chat de WhatsApp o con sus líderes internos.</div>
 <ul>
 <li><strong>Canal principal · Ticket desde el dashboard.</strong> El botón «Crear Ticket de Soporte», al pie del menú lateral de la Suite, es el canal principal para casos técnicos: un número que no responde, una carga rechazada, un dato que no cuadra. Queda registrado y tiene seguimiento, así que es el que deja trazabilidad de tu caso.</li>
-<li><strong>Teléfono de soporte: +51 982 278 100.</strong> Lunes a viernes, de 9:00 a. m. a 6:00 p. m.</li>
 <li><strong>WhatsApp · asistente de soporte con IA: <a href="https://wa.me/51989691266" target="_blank" rel="noopener">+51 989 691 266</a>.</strong> Escríbele para resolver dudas de curso, certificado y datos de registro; si no puede resolver tu caso, lo deriva al equipo.</li>
 <li><strong>Correo: soporte@musa.la.</strong> Para consultas del equipo administrador del programa.</li>
 <li><strong>Temas del programa · Tu contacto Musa.</strong> Para temas del programa antes que técnicos: fechas, alcance, nuevas campañas o coordinación de notificaciones.</li>
