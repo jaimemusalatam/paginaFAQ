@@ -16,7 +16,7 @@ const ARTICULOS = [
 <dt>Gupshup</dt><dd>El proveedor oficial de Meta (BSP) que aporta la infraestructura técnica para conectar tu portafolio comercial con Musa.</dd>
 </dl>
 
-<h2>Quién debe hacerlo</h2>
+<h2>¿Quién debe hacerlo?</h2>
 <p>La configuración la realiza una persona con permisos de administrador del Meta Business Manager de tu organización. Normalmente es alguien de TI, de marketing digital o quien administre las redes corporativas.</p>
 
 <h2>Requisitos críticos</h2>
@@ -45,7 +45,7 @@ const ARTICULOS = [
   </ul></li>
 </ol>
 
-<h2>Qué pasa después</h2>
+<h2>¿Qué pasa después?</h2>
 <p>Con la cuenta creada y verificada, el equipo Musa conecta tu línea a la plataforma y te entrega los accesos a la Suite. A partir de ahí continúas con el artículo <a href="articulo.html#tu-dashboard-musa">Tu dashboard Musa</a>.</p>
 
 <h2>Cuida tu línea en el tiempo</h2>
@@ -113,7 +113,7 @@ const ARTICULOS = [
 <li><strong>Facilitadores del onboarding:</strong> motivan el registro inicial y guían a sus compañeros en el uso básico de WhatsApp para la capacitación.</li>
 <li><strong>Canal interno de consultas:</strong> acompañan al usuario resolviendo dudas sobre fechas del programa, avances o políticas internas de la organización.</li>
 </ul>
-<h3>Cómo prepararlos</h3>
+<h3>¿Cómo prepararlos?</h3>
 <ul>
 <li>Compártele a cada líder el artículo <a href="articulo.html#soporte-y-chat">Soporte y qué hacer si el chat no responde</a>, con el protocolo correspondiente.</li>
 <li>Dales el cronograma con las fechas de corte antes de que lo reciba el resto del equipo.</li>
@@ -160,7 +160,7 @@ const ARTICULOS = [
 </ul>
 <div class="note warn"><strong>Al crear tu nueva contraseña, evita el símbolo #.</strong> Ese carácter genera errores de inicio de sesión. Puedes usar cualquier otro símbolo sin problema.</div>
 
-<h2>Cómo está organizada</h2>
+<h2>¿Cómo está organizada?</h2>
 <p>El menú lateral izquierdo agrupa todo en tres bloques.</p>
 <ul>
 <li><strong>Dashboard:</strong> General, Notificaciones, Campañas, Cursos, Estudiantes y Tracking. Es tu vista del día a día.</li>
@@ -233,15 +233,15 @@ const ARTICULOS = [
 },
 {
   id:'leer-tu-reporte', aud:'cliente', ico:'📈',
-  t:'Cómo leer tu reporte Musa',
+  t:'¿Cómo leer tu reporte Musa?',
   d:'Qué contiene cada pestaña del archivo descargable y cómo calcular los indicadores del programa.',
   para:'Equipo del cliente con acceso a la Suite', cuando:'Durante el seguimiento del programa', guia:'Guía 04',
   body:`
-<h2>Qué es el reporte Musa</h2>
+<h2>¿Qué es el reporte Musa?</h2>
 <p>Es el archivo que descargas desde la Suite y que contiene el detalle completo de tu programa, pestaña por pestaña. El dashboard te da la lectura rápida; el reporte te da el dato fino para cruzar con tus propios sistemas.</p>
 <div class="note warn"><strong>Consideración crítica: solo se guarda la primera interacción.</strong> Si un usuario repasa o vuelve a tomar el curso, lo único que se actualiza en tiempo real es su constancia. La fecha de inicio y el progreso inicial permanecen tal como quedaron la primera vez. Un usuario que repitió el curso no aparecerá con fechas nuevas; no es un error de carga.</div>
 
-<h3>Por qué las pestañas no suman lo mismo</h3>
+<h3>¿Por qué las pestañas no suman lo mismo?</h3>
 <p>Cada pestaña cuenta algo distinto, así que sus totales no tienen por qué coincidir.</p>
 <ul>
 <li><strong>Bienvenida</strong> cuenta personas que escribieron «Hola» y no completaron el registro. No aparecen en Estudiantes.</li>
@@ -270,7 +270,7 @@ const ARTICULOS = [
 <p>Con los datos del reporte puedes calcular las dos métricas con las que Musa evalúa un despliegue.</p>
 <div class="formula"><strong>Tasa de finalización</strong> = NF ÷ NE × 100<br><span>NF: usuarios que finalizan al menos un curso. NE: usuarios que empiezan al menos un curso. De quienes empezaron, cuántos terminaron.</span></div>
 <div class="formula"><strong>Enganche</strong> = NE ÷ NI × 100<br><span>NE: usuarios que empiezan al menos un curso. NI: usuarios que interactúan con Musa (escriben «Hola»). De quienes llegaron al chat, cuántos arrancaron un curso.</span></div>
-<h3>Dónde encontrar cada dato</h3>
+<h3>¿Dónde encontrar cada dato?</h3>
 <table>
 <thead><tr><th>Dato</th><th>Cómo obtenerlo del reporte</th></tr></thead>
 <tbody>
@@ -279,7 +279,7 @@ const ARTICULOS = [
 <tr><td>NF</td><td>Personas en la pestaña Estudiantes con al menos un curso completado.</td></tr>
 </tbody>
 </table>
-<h3>Cómo leerlos juntos</h3>
+<h3>¿Cómo leerlos juntos?</h3>
 <ul>
 <li><strong>Enganche alto, finalización baja:</strong> la convocatoria y el registro funcionaron, pero algo frena a la gente dentro del curso. Revisa la pestaña Respuestas y refuerza con notificaciones de seguimiento.</li>
 <li><strong>Enganche bajo:</strong> la gente llega al chat pero no arranca. Usa la pestaña Bienvenida como lista de recuperación y revisa la difusión con las piezas de <a href="articulo.html#buenas-practicas-despliegue">Buenas prácticas de despliegue</a>.</li>
@@ -287,13 +287,13 @@ const ARTICULOS = [
 },
 {
   id:'usar-notificaciones', aud:'cliente', ico:'🔔',
-  t:'Cómo usar tus notificaciones',
+  t:'¿Cómo usar tus notificaciones?',
   d:'Del mensaje a la plantilla aprobada y del envío al resultado: el ciclo completo de una notificación Musa.',
   para:'Equipo del cliente con acceso a la Suite', cuando:'Al preparar cada envío', guia:'Guía 05',
   body:`
-<h2>Qué son las notificaciones</h2>
+<h2>¿Qué son las notificaciones?</h2>
 <p>Son mensajes que envías a tus usuarios dentro de la ruta de aprendizaje, con un objetivo concreto: que se registren, que retomen un curso o que descarguen su certificado antes de la fecha de cierre.</p>
-<h3>Cómo se comportan en el chat</h3>
+<h3>¿Cómo se comportan en el chat?</h3>
 <ul>
 <li><strong>Llegan donde está el usuario.</strong> El mensaje aparece en el punto de la ruta en el que la persona se encuentra, sin interrumpir su progreso.</li>
 <li><strong>No redireccionan ni modifican.</strong> La notificación no mueve al usuario de módulo ni cambia su estado dentro del curso.</li>
@@ -313,7 +313,7 @@ const ARTICULOS = [
 <div class="note warn"><strong>No uses una notificación como primer contacto.</strong> Si el usuario todavía no conoce el número, un mensaje que le llega sin aviso se percibe como spam. Basta con que unos cuantos lo reporten o lo bloqueen para que la salud de tu cuenta WABA caiga y Meta reduzca tu límite de envíos diarios. Recuperar ese nivel toma semanas. La bienvenida se da dentro del chat, cuando la persona escribe «Hola» por primera vez; lo que abre la puerta es la campaña de difusión. Las notificaciones vienen después, cuando el número ya está guardado como contacto.</div>
 <p>Con las tres plantillas de la tabla cubres el ciclo de un despliegue estándar, y las tres se dirigen a personas que ya interactuaron con el chatbot.</p>
 
-<h2>Cómo redactar tu mensaje</h2>
+<h2>¿Cómo redactar tu mensaje?</h2>
 <p>El equipo Musa revisa y carga cada plantilla, así que del trámite con Meta no tienes que preocuparte. Lo que sí depende de ti es el texto: escrito en tono de procedimiento, la aprobación sale rápido y sin observaciones. La idea es simple: informas un estado y ofreces la acción que corresponde. Nada más.</p>
 <ul>
 <li>Nombra el curso o el programa. El mensaje debe conectarse con algo que la persona ya empezó.</li>
@@ -353,7 +353,7 @@ const ARTICULOS = [
 </ol>
 <div class="note warn"><strong>Cuenta dos días hábiles, no dos días.</strong> Una notificación solicitada un viernes por la tarde difícilmente estará lista antes del martes. Si tu envío depende de una fecha de cierre, solicita las plantillas al inicio del programa.</div>
 
-<h2>Cómo enviar una notificación</h2>
+<h2>¿Cómo enviar una notificación?</h2>
 <p>Desde Configuración › Notificaciones, con la plantilla ya aprobada, el formulario de envío tiene cinco campos.</p>
 <ol>
 <li><strong>Nombre de la notificación.</strong> Un nombre interno, solo para tu organización. Por ejemplo: Comunicado_Marzo.</li>
@@ -390,7 +390,7 @@ const ARTICULOS = [
   d:'A quién escribir, el protocolo de tres niveles cuando el chat se detiene y el glosario que tu equipo necesita a la mano.',
   para:'Todo el equipo del cliente · Líderes de campo', cuando:'Durante todo el programa', guia:'Guía 06',
   body:`
-<h2>Dónde pedir ayuda</h2>
+<h2>¿Dónde pedir ayuda?</h2>
 <p>Cada tipo de consulta tiene un camino distinto. Elegir el correcto es la diferencia entre resolver en minutos o esperar un día.</p>
 <div class="note"><strong>Estos canales son para tu equipo, no para los usuarios finales.</strong> El número y el correo de soporte Musa atienden a las personas de tu organización que administran el programa. Los estudiantes resuelven sus dudas dentro del propio chat de WhatsApp o con sus líderes internos.</div>
 <ul>
@@ -466,20 +466,20 @@ const ARTICULOS = [
 },
 {
   id:'iniciar-microcursos', aud:'usuario', ico:'🚀',
-  t:'Cómo iniciar tus microcursos y recibir tu constancia',
+  t:'¿Cómo iniciar tus microcursos y recibir tu constancia?',
   d:'Guarda el número, escribe «Hola», completa tu registro y descarga tu constancia desde el chat.',
   para:'Estudiantes', cuando:'Al empezar tu curso', guia:'Guía para estudiantes',
   body:`
 <p>Tu capacitación se hace por WhatsApp, a tu propio ritmo y sin descargar ninguna aplicación. Estos son los pasos para empezar y para recibir tu constancia al terminar.</p>
 
-<h2>Qué son los microcursos Musa</h2>
+<h2>¿Qué son los microcursos Musa?</h2>
 <p>Son microcursos de capacitación interactiva que se realizan directamente por WhatsApp. Según tu programa, tu ruta puede ser de dos tipos:</p>
 <ul>
 <li><strong>Ruta libre:</strong> tienes un menú para elegir qué cursos tomar y en qué orden.</li>
 <li><strong>Ruta lineal:</strong> debes terminar los cursos en orden para poder avanzar al siguiente.</li>
 </ul>
 
-<h2>Cómo empezar</h2>
+<h2>¿Cómo empezar?</h2>
 <ol class="steps">
 <li><strong>Guarda el número del chatbot.</strong> Agrégalo como contacto en tu celular para tenerlo a la mano.</li>
 <li><strong>Escribe únicamente «Hola».</strong> No te preocupes si la respuesta inicial toma unos segundos en cargar.</li>
@@ -487,7 +487,7 @@ const ARTICULOS = [
 <li><strong>Toma tus cursos y aprueba la evaluación.</strong> El chat te guía en cada lección.</li>
 </ol>
 
-<h2>Cómo recibes tu constancia</h2>
+<h2>¿Cómo recibes tu constancia?</h2>
 <p>La constancia llega directamente al chat de tu ruta de aprendizaje, como un enlace de descarga, cuando completas el curso y apruebas la evaluación.</p>
 <div class="note warn"><strong>Si no terminas el curso, no se genera tu constancia.</strong> Si sales sin completar el curso ni generar tu constancia, deberás realizar el curso completo de nuevo para poder certificarte.</div>
 
@@ -502,7 +502,7 @@ const ARTICULOS = [
 },
 {
   id:'si-el-chat-no-responde', aud:'usuario', ico:'💬',
-  t:'Qué hacer si el chat no responde',
+  t:'¿Qué hacer si el chat no responde?',
   d:'Pasos para destrabar la conversación, qué hacen las palabras «Salir» y «resetbot» y cuándo pedir ayuda.',
   para:'Estudiantes', cuando:'Cuando el chat se demora o se detiene', guia:'Guía para estudiantes',
   body:`

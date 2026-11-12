@@ -7,7 +7,7 @@ const CATS = [
     ['¿Qué nombre puede tener la cuenta?','El nombre visible debe coincidir con la identidad legal o comercial de la empresa. Meta no permite emojis ni símbolos.'],
     ['¿Cómo evito que se caiga mi línea?','Recarga el chip según la política de tu operador (en Perú, cada 2 meses), no elimines el número del Business Manager, ten más de un administrador y guarda el chip físico: Meta puede pedir una reverificación por SMS en cualquier momento.']
   ]},
-  {id:'despliegue', art:'buenas-practicas-despliegue', ico:'🚀', t:'Despliegue y comunicación', d:'Cómo lanzar tu programa para lograr adopción.', faqs:[
+  {id:'despliegue', art:'buenas-practicas-despliegue', ico:'🚀', t:'Despliegue y comunicación', d:'¿Cómo lanzar tu programa para lograr adopción?', faqs:[
     ['¿Cuál es la instrucción para el usuario final?','Guardar el número del chatbot como contacto y escribir únicamente «Hola». Todo lo demás lo guía el chat. Repite esa instrucción sin variaciones en cada pieza y cada mensaje.',true],
     ['¿Cuáles son las fases de la campaña de comunicación?','Fase 1, Pre-lanzamiento (3 a 5 días antes): anunciar la ruta sin saturar.\nFase 2, Lanzamiento (día 1): generar la primera interacción masiva en el chatbot.\nFase 3, Seguimiento y cierre (hasta el cierre): mantener el avance, reactivar a quienes quedaron a medias y promover la descarga del certificado.'],
     ['¿Qué incluye el kit gráfico de Canva?','Cuatro piezas, una por momento: 1) Ruta de aprendizaje, 2) Tips operativos, 3) Registro de curso nuevo con código QR y 4) Autoayuda y soporte. Crea tu copia con «Usar plantilla para un diseño nuevo» y personaliza fechas, logos, número del chatbot y QR. Pide el enlace a tu contacto Musa.'],
@@ -24,7 +24,7 @@ const CATS = [
     ['La búsqueda en Tracking no devuelve resultados','Amplía el filtro de fechas (viene en 7 días por defecto) y escribe el número en formato internacional, sin el signo + (por ejemplo, 51987654321).'],
     ['¿Cómo agrego o quito accesos a mi curso?','En Configuración › Permisos, por celular o por documento de identidad. Para cargar una lista completa, sube un CSV sin encabezados ni columnas adicionales: una sola columna con los datos. Es el motivo más frecuente de cargas rechazadas.']
   ]},
-  {id:'reportes', art:'leer-tu-reporte', ico:'📈', t:'Reportes', d:'Cómo leer el archivo descargable.', faqs:[
+  {id:'reportes', art:'leer-tu-reporte', ico:'📈', t:'Reportes', d:'¿Cómo leer el archivo descargable?', faqs:[
     ['¿Por qué las pestañas del reporte no suman lo mismo?','Cada una cuenta algo distinto. Bienvenida: personas que escribieron «Hola» y no completaron el registro. Estudiantes: personas únicas registradas. Cursos: inscripciones por curso (quien toma tres microcursos suma tres veces).',true],
     ['¿Qué significa la pestaña Bienvenida?','Reúne a quienes solo escribieron «Hola» y no completaron el registro, no aceptaron las políticas de privacidad o no empezaron ningún curso. Es tu lista natural de recuperación.'],
     ['Un usuario repitió el curso pero sus fechas no cambian','Solo se guarda la primera interacción. Si un usuario repasa o vuelve a tomar el curso, lo único que se actualiza en tiempo real es su constancia. No es un error de carga.'],
@@ -43,7 +43,7 @@ const CATS = [
     ['¿Cómo envío una notificación masiva?','Programa grupos de máximo 2 000 usuarios, con 30 minutos de diferencia entre uno y otro, para respetar el límite de envíos de Meta por cada 24 horas.'],
     ['¿Cómo mido si funcionó?','En Dashboard › Notificaciones, con el indicador «Alcance siguientes 24 horas»: usuarios que interactuaron con el chatbot después de recibir el mensaje. No hay trazabilidad individual.']
   ]},
-  {id:'soporte', art:'soporte-y-chat', ico:'🛟', t:'Soporte y chat', d:'Qué hacer si el chat no responde.', faqs:[
+  {id:'soporte', art:'soporte-y-chat', ico:'🛟', t:'Soporte y chat', d:'¿Qué hacer si el chat no responde?', faqs:[
     ['¿Cómo contacto a soporte?','Canal principal: el botón «Crear Ticket de Soporte», al pie del menú lateral de la Suite. También puedes llamar al +51 982 278 100 (lunes a viernes, 9:00 a. m. a 6:00 p. m.), escribir a soporte@musa.la o a tu contacto Musa para temas del programa. Estos canales son para el equipo administrador, no para estudiantes.',true],
     ['El chat no responde, ¿qué hago?','Nivel 1: si es la primera interacción, espera un minuto y vuelve a escribir «Hola»; si se detuvo en una lección, reenvía el último mensaje escribiendo la palabra que aparece dentro del botón. Nivel 2: palabras de autogestión («Salir» o «resetbot»). Nivel 3: crea un ticket para que Soporte revise y reinicie el número.',true],
     ['¿Qué hacen «Salir» y «resetbot»?','«Salir» regresa al menú principal (solo en capacitaciones con menú abierto o multicurso). «resetbot» reinicia la sesión de la lección activa y el registro; sirve para destrabar la conversación o corregir datos personales. Debe escribirse dentro de un curso, no desde el menú principal.'],
