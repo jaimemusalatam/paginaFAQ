@@ -85,6 +85,7 @@ c0 -1458 1 -1594 16 -1600 26 -10 1402 -7 1409 3 3 5 6 758 6 1673 1 1364 3
     <nav class="topnav">
       <a href="index.html">← Inicio</a>
       <a href="#categorias">Temas</a>
+      <a href="#articulos">Artículos</a>
       <a href="#populares">Populares</a>
       <a href="#contacto" class="btn btn--sm">Contáctanos</a>
     </nav>
@@ -104,6 +105,7 @@ c0 -1458 1 -1594 16 -1600 26 -10 1402 -7 1409 3 3 5 6 758 6 1673 1 1364 3
 <main class="wrap">
   <section id="resultados" class="results" hidden>
     <h2 id="resTitle"></h2>
+    <div id="resArts"></div>
     <div id="resList" class="faqlist"></div>
   </section>
 
@@ -112,9 +114,16 @@ c0 -1458 1 -1594 16 -1600 26 -10 1402 -7 1409 3 3 5 6 758 6 1673 1 1364 3
     <div id="cats" class="cats"></div>
   </section>
 
+  <section id="articulos" class="block">
+    <h2>Guías y artículos</h2>
+    <p class="muted">Guías paso a paso para estudiantes.</p>
+    <div id="arts" class="arts"></div>
+  </section>
+
   <section id="detalle" class="block" hidden>
     <button class="back" id="back">← Todos los temas</button>
     <h2 id="detTitle"></h2>
+    <div id="detArt"></div>
     <p id="detDesc" class="muted"></p>
     <div id="detList" class="faqlist"></div>
   </section>
@@ -138,6 +147,8 @@ c0 -1458 1 -1594 16 -1600 26 -10 1402 -7 1409 3 3 5 6 758 6 1673 1 1364 3
     <a href="https://musa.la/">musa.la</a>
   </div>
 </footer>
+<script>window.AUD='usuario';</script>
+<script src="data-articulos.js"></script>
 <script src="data-usuario.js"></script>
 <script src="app.js"></script>
 </body>

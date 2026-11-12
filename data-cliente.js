@@ -1,5 +1,5 @@
 const CATS = [
-  {id:'whatsapp', ico:'📱', t:'Cuenta WhatsApp Business', d:'Requisitos y pasos para conectar tu línea.', faqs:[
+  {id:'whatsapp', art:'cuenta-whatsapp-business', ico:'📱', t:'Cuenta WhatsApp Business', d:'Requisitos y pasos para conectar tu línea.', faqs:[
     ['¿Qué es una cuenta WABA y por qué la necesito?','Es la versión profesional de WhatsApp para empresas, verificada por Meta. Permite conectar chatbots y enviar mensajes masivos de forma segura. Tu ruta de aprendizaje vive dentro de WhatsApp, por eso tu organización necesita una.',true],
     ['¿Qué requisitos debo cumplir?','Tres críticos:\n1) Portafolio Comercial (Meta Business Manager) validado: si tu empresa no está verificada, Meta puede cancelar la cuenta.\n2) Un número de teléfono nuevo, exclusivo para este fin y sin WhatsApp activo. No sirve el de la central ni uno ya en uso.\n3) Acceso de administrador del Business Manager para quien hace la vinculación.'],
     ['¿Quién debe crear la cuenta?','Una persona con permisos de administrador del Meta Business Manager de tu organización. Normalmente es alguien de TI, de marketing digital o quien administre las redes corporativas.'],
@@ -7,7 +7,7 @@ const CATS = [
     ['¿Qué nombre puede tener la cuenta?','El nombre visible debe coincidir con la identidad legal o comercial de la empresa. Meta no permite emojis ni símbolos.'],
     ['¿Cómo evito que se caiga mi línea?','Recarga el chip según la política de tu operador (en Perú, cada 2 meses), no elimines el número del Business Manager, ten más de un administrador y guarda el chip físico: Meta puede pedir una reverificación por SMS en cualquier momento.']
   ]},
-  {id:'despliegue', ico:'🚀', t:'Despliegue y comunicación', d:'Cómo lanzar tu programa para lograr adopción.', faqs:[
+  {id:'despliegue', art:'buenas-practicas-despliegue', ico:'🚀', t:'Despliegue y comunicación', d:'Cómo lanzar tu programa para lograr adopción.', faqs:[
     ['¿Cuál es la instrucción para el usuario final?','Guardar el número del chatbot como contacto y escribir únicamente «Hola». Todo lo demás lo guía el chat. Repite esa instrucción sin variaciones en cada pieza y cada mensaje.',true],
     ['¿Cuáles son las fases de la campaña de comunicación?','Fase 1, Pre-lanzamiento (3 a 5 días antes): anunciar la ruta sin saturar.\nFase 2, Lanzamiento (día 1): generar la primera interacción masiva en el chatbot.\nFase 3, Seguimiento y cierre (hasta el cierre): mantener el avance, reactivar a quienes quedaron a medias y promover la descarga del certificado.'],
     ['¿Qué incluye el kit gráfico de Canva?','Cuatro piezas, una por momento: 1) Ruta de aprendizaje, 2) Tips operativos, 3) Registro de curso nuevo con código QR y 4) Autoayuda y soporte. Crea tu copia con «Usar plantilla para un diseño nuevo» y personaliza fechas, logos, número del chatbot y QR. Pide el enlace a tu contacto Musa.'],
@@ -15,7 +15,7 @@ const CATS = [
     ['¿Qué debo revisar antes del lanzamiento?','Cuenta WABA verificada, accesos a la Suite probados, tipo de ruta confirmado (libre o lineal), kit de Canva personalizado, líderes informados, base de usuarios con celulares en formato internacional y la Pieza 1 difundida entre 3 y 5 días antes.'],
     ['¿Qué pasa si publico la Pieza 4 en una ruta lineal?','En rutas lineales la palabra «Salir» no está disponible, y publicarla genera intentos fallidos y consultas innecesarias. Adapta o elimina esa palabra en la pieza antes de difundirla.']
   ]},
-  {id:'dashboard', ico:'📊', t:'Dashboard (Suite Musa)', d:'Entrar a la Suite y entender cada vista.', faqs:[
+  {id:'dashboard', art:'tu-dashboard-musa', ico:'📊', t:'Dashboard (Suite Musa)', d:'Entrar a la Suite y entender cada vista.', faqs:[
     ['¿Cómo ingreso a la Suite Musa?','Entra a suite.musa.la desde cualquier navegador, sin instalar nada. Tu usuario es el correo que registraste con Musa; la contraseña inicial te la entrega tu contacto Musa y el sistema te pedirá cambiarla en el primer ingreso.',true],
     ['No puedo iniciar sesión con mi nueva contraseña','Evita el símbolo # al crearla: ese carácter genera errores de inicio de sesión. Puedes usar cualquier otro símbolo.'],
     ['¿Qué muestra la vista General?','Finalización (promedio de avance y conclusión), Promedio (microcursos tomados por usuario), Estudiantes (usuarios activos en los últimos 30 días) y un gráfico de actividad diaria que cruza interacciones, registrados y notificaciones enviadas.'],
@@ -24,7 +24,7 @@ const CATS = [
     ['La búsqueda en Tracking no devuelve resultados','Amplía el filtro de fechas (viene en 7 días por defecto) y escribe el número en formato internacional, sin el signo + (por ejemplo, 51987654321).'],
     ['¿Cómo agrego o quito accesos a mi curso?','En Configuración › Permisos, por celular o por documento de identidad. Para cargar una lista completa, sube un CSV sin encabezados ni columnas adicionales: una sola columna con los datos. Es el motivo más frecuente de cargas rechazadas.']
   ]},
-  {id:'reportes', ico:'📈', t:'Reportes', d:'Cómo leer el archivo descargable.', faqs:[
+  {id:'reportes', art:'leer-tu-reporte', ico:'📈', t:'Reportes', d:'Cómo leer el archivo descargable.', faqs:[
     ['¿Por qué las pestañas del reporte no suman lo mismo?','Cada una cuenta algo distinto. Bienvenida: personas que escribieron «Hola» y no completaron el registro. Estudiantes: personas únicas registradas. Cursos: inscripciones por curso (quien toma tres microcursos suma tres veces).',true],
     ['¿Qué significa la pestaña Bienvenida?','Reúne a quienes solo escribieron «Hola» y no completaron el registro, no aceptaron las políticas de privacidad o no empezaron ningún curso. Es tu lista natural de recuperación.'],
     ['Un usuario repitió el curso pero sus fechas no cambian','Solo se guarda la primera interacción. Si un usuario repasa o vuelve a tomar el curso, lo único que se actualiza en tiempo real es su constancia. No es un error de carga.'],
@@ -33,7 +33,7 @@ const CATS = [
     ['¿Cómo interpreto enganche y finalización juntos?','Enganche alto con finalización baja: algo frena a la gente dentro del curso; revisa la pestaña Respuestas y refuerza con notificaciones. Enganche bajo: la gente llega al chat pero no arranca; usa Bienvenida como lista de recuperación y revisa la difusión.'],
     ['¿Qué es la pestaña Mía · Asistente IA?','Es condicional: aparece solo si tu ruta de aprendizaje tiene un asistente de inteligencia artificial, y permite ver las conversaciones del usuario con la IA.']
   ]},
-  {id:'notificaciones', ico:'🔔', t:'Notificaciones', d:'Plantillas, aprobación y envíos.', faqs:[
+  {id:'notificaciones', art:'usar-notificaciones', ico:'🔔', t:'Notificaciones', d:'Plantillas, aprobación y envíos.', faqs:[
     ['¿Cuánto tarda en aprobarse una notificación?','Un día hábil de Musa más un día hábil de Meta. Cuenta dos días hábiles, no dos días: una solicitud del viernes por la tarde difícilmente estará lista antes del martes. Pide tus plantillas al inicio del programa.',true],
     ['¿Qué tipos de notificación recomiendan?','Tres plantillas para cubrir un despliegue estándar: registro pendiente, recordatorio de avance y aviso de cierre. Las tres se dirigen a personas que ya interactuaron con el chatbot.'],
     ['¿Puedo usar una notificación como primer contacto?','No. Si el usuario aún no conoce el número, el mensaje se percibe como spam; si unos cuantos lo reportan, la salud de tu cuenta WABA cae y Meta reduce tu límite diario. La bienvenida se da en el chat cuando escribe «Hola».'],
@@ -43,7 +43,7 @@ const CATS = [
     ['¿Cómo envío una notificación masiva?','Programa grupos de máximo 2 000 usuarios, con 30 minutos de diferencia entre uno y otro, para respetar el límite de envíos de Meta por cada 24 horas.'],
     ['¿Cómo mido si funcionó?','En Dashboard › Notificaciones, con el indicador «Alcance siguientes 24 horas»: usuarios que interactuaron con el chatbot después de recibir el mensaje. No hay trazabilidad individual.']
   ]},
-  {id:'soporte', ico:'🛟', t:'Soporte y chat', d:'Qué hacer si el chat no responde.', faqs:[
+  {id:'soporte', art:'soporte-y-chat', ico:'🛟', t:'Soporte y chat', d:'Qué hacer si el chat no responde.', faqs:[
     ['¿Cómo contacto a soporte?','Canal principal: el botón «Crear Ticket de Soporte», al pie del menú lateral de la Suite. También puedes llamar al +51 982 278 100 (lunes a viernes, 9:00 a. m. a 6:00 p. m.), escribir a soporte@musa.la o a tu contacto Musa para temas del programa. Estos canales son para el equipo administrador, no para estudiantes.',true],
     ['El chat no responde, ¿qué hago?','Nivel 1: si es la primera interacción, espera un minuto y vuelve a escribir «Hola»; si se detuvo en una lección, reenvía el último mensaje escribiendo la palabra que aparece dentro del botón. Nivel 2: palabras de autogestión («Salir» o «resetbot»). Nivel 3: crea un ticket para que Soporte revise y reinicie el número.',true],
     ['¿Qué hacen «Salir» y «resetbot»?','«Salir» regresa al menú principal (solo en capacitaciones con menú abierto o multicurso). «resetbot» reinicia la sesión de la lección activa y el registro; sirve para destrabar la conversación o corregir datos personales. Debe escribirse dentro de un curso, no desde el menú principal.'],
