@@ -4,16 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Centro de ayuda | Musa</title>
-<meta name="description" content="Encuentra respuestas sobre cursos, cuentas, licencias, certificados y más.">
+<meta name="description" content="Centro de ayuda de Musa para clientes y usuarios.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800;900&family=PT+Serif+Caption&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800;900&family=PT+Serif+Caption" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="topbar">
   <div class="wrap topbar__in">
-    <a class="brand" href="#" aria-label="Musa – Centro de ayuda"><span class="brand__logo"><svg viewBox="0 0 2117.000000 639.000000" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Musa"><g transform="translate(0.000000,639.000000) scale(0.100000,-0.100000)"
+    <a class="brand" href="index.html" aria-label="Musa – Centro de ayuda"><span class="brand__logo"><svg viewBox="0 0 2117.000000 639.000000" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Musa"><g transform="translate(0.000000,639.000000) scale(0.100000,-0.100000)"
 fill="currentColor" stroke="none">
 <path d="M6101 6174 c-46 -8 -117 -28 -158 -44 -155 -62 -181 -85 -813 -716
 -327 -327 -598 -594 -602 -594 -3 0 -5 20 -3 45 2 41 -2 69 -19 154 -19 86
@@ -82,54 +82,28 @@ c0 -1458 1 -1594 16 -1600 26 -10 1402 -7 1409 3 3 5 6 758 6 1673 1 1364 3
 -4 -1297 -56 -337 -404 -550 -724 -441 -128 44 -260 162 -318 284 -65 135 -63
 88 -63 1459 0 684 0 1249 0 1256 0 9 -185 12 -890 12 -489 0 -890 -3 -890 -7z"/>
 </g></svg></span><span class="brand__tag">Ayuda</span></a>
-    <nav class="topnav">
-      <a href="#categorias">Temas</a>
-      <a href="#populares">Populares</a>
-      <a href="#contacto" class="btn btn--sm">Contáctanos</a>
-    </nav>
   </div>
 </header>
 
-<section class="hero">
+<section class="hero hero--home">
   <div class="wrap">
     <h1>¿Cómo podemos ayudarte?</h1>
-    <form class="search" role="search" onsubmit="return false">
-      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm10 2-4.3-4.3"/></svg>
-      <input id="q" type="search" placeholder="Busca una pregunta, ej. “notificaciones”" autocomplete="off" aria-label="Buscar en el centro de ayuda">
-    </form>
+    <p class="hero__sub">Elige quién eres y te mostramos las respuestas que necesitas.</p>
   </div>
 </section>
 
 <main class="wrap">
-  <section id="resultados" class="results" hidden>
-    <h2 id="resTitle"></h2>
-    <div id="resList" class="faqlist"></div>
-  </section>
-
-  <section id="categorias" class="block">
-    <h2>Explora por tema</h2>
-    <div id="cats" class="cats"></div>
-  </section>
-
-  <section id="detalle" class="block" hidden>
-    <button class="back" id="back">← Todos los temas</button>
-    <h2 id="detTitle"></h2>
-    <p id="detDesc" class="muted"></p>
-    <div id="detList" class="faqlist"></div>
-  </section>
-
-  <section id="populares" class="block">
-    <h2>Preguntas populares</h2>
-    <div id="pop" class="faqlist"></div>
-  </section>
-
-  <section id="contacto" class="contact">
-    <div>
-      <h2>¿No encontraste lo que buscabas?</h2>
-      <p>Crea un ticket desde la Suite (botón al pie del menú lateral) o contáctanos. Atendemos de lunes a viernes, de 9:00 a. m. a 6:00 p. m.</p>
-      <p class="contact__lines"><a href="tel:+51982278100">📞 +51 982 278 100</a><a href="mailto:soporte@musa.la">✉️ soporte@musa.la</a></p>
-    </div>
-    <a class="btn btn--light" href="tel:+51982278100">Llamar a soporte</a>
+  <section class="block choose">
+    <a class="who who--cliente" href="cliente.html">
+      <span class="who__ico">🏢</span>
+      <span class="who__t">Soy cliente</span>
+      <span class="who__d">Administro el programa de capacitación de mi organización: cuenta de WhatsApp, dashboard, reportes y notificaciones.</span>
+    </a>
+    <a class="who who--usuario" href="usuario.html">
+      <span class="who__ico">🎓</span>
+      <span class="who__t">Soy usuario</span>
+      <span class="who__d">Estoy tomando microcursos por WhatsApp y necesito ayuda con mi curso, mi registro o mi constancia.</span>
+    </a>
   </section>
 </main>
 
@@ -139,6 +113,6 @@ c0 -1458 1 -1594 16 -1600 26 -10 1402 -7 1409 3 3 5 6 758 6 1673 1 1364 3
     <a href="https://musa.la/">musa.la</a>
   </div>
 </footer>
-<script src="app.js"></script>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
 </body>
 </html>
