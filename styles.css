@@ -155,3 +155,7 @@ mark{background:#ffd9d2;color:inherit;border-radius:3px}
 .prose td{background:var(--blanco)}
 .related{margin-top:56px}
 @media(max-width:640px){.prose{font-size:17px}.prose .steps>li{padding-left:56px}}
+
+.contact__btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn--line{background:transparent;border:2px solid var(--morado)!important;color:var(--morado)!important}
+.btn--line:hover{background:var(--morado);color:var(--marfil)!important}
