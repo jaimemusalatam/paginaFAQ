@@ -17,6 +17,7 @@ const CATS = [
   ]},
   {id:'ayuda', ico:'🙋', t:'Dudas del programa', d:'Fechas, políticas y avance.', faqs:[
     ['¿A quién le pregunto por fechas o mi avance?','Las dudas sobre fechas, políticas internas o tu propio avance se resuelven con los líderes o embajadores de campo de tu organización.',true],
+    ['¿Cómo hablo con el asistente de soporte de Musa?','Escríbele por WhatsApp al +51 989 691 266. Es un asistente con IA que resuelve dudas de tu curso, tu certificado y tus datos de registro, y si no puede resolver tu caso lo deriva a una persona del equipo.',true],
     ['¿Puedo escribir al soporte de Musa?','El soporte de Musa atiende al equipo de tu organización que administra el programa. Si tienes un problema con el chat, sigue los pasos de la sección anterior y, si persiste, avisa a tu líder para que cree el caso.']
   ]}
 ];
