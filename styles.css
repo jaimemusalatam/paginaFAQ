@@ -80,3 +80,6 @@ mark{background:#ffd9d2;color:inherit;border-radius:3px}
 .foot{background:var(--morado);color:var(--marfil);padding:28px 0;font-size:14px}
 .foot__in{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 @media(max-width:640px){.topnav a:not(.btn){display:none}.brand__tag{display:none}.hero{padding:52px 0 96px}.contact{padding:36px 26px}}
+
+.contact__lines{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:14px!important;font-weight:700}
+.contact__lines a{text-decoration:none;border-bottom:2px solid var(--morado)}
