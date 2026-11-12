@@ -159,3 +159,12 @@ mark{background:#ffd9d2;color:inherit;border-radius:3px}
 .contact__btns{display:flex;flex-wrap:wrap;gap:12px}
 .btn--line{background:transparent;border:2px solid var(--morado)!important;color:var(--morado)!important}
 .btn--line:hover{background:var(--morado);color:var(--marfil)!important}
+
+.ask{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;margin-top:-64px;margin-bottom:8px;padding:22px 28px;background:var(--coral);color:var(--morado);border-radius:0 var(--r) var(--r) var(--r);position:relative}
+.ask__t{display:flex;gap:16px;align-items:center;min-width:0;flex:1 1 360px}
+.ask__ico{font-size:34px}
+.ask h2{font-size:clamp(19px,2.4vw,24px);margin:0 0 4px}
+.ask p{margin:0;font-family:var(--serif)}
+.ask .btn{background:var(--morado);color:var(--marfil)!important}
+.ask .btn:hover{background:var(--vino)}
+.ask + #categorias{margin-top:0;padding-top:32px}

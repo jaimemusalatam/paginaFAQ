@@ -395,7 +395,6 @@ const ARTICULOS = [
 <div class="note"><strong>Estos canales son para tu equipo, no para los usuarios finales.</strong> El número y el correo de soporte Musa atienden a las personas de tu organización que administran el programa. Los estudiantes resuelven sus dudas dentro del propio chat de WhatsApp o con sus líderes internos.</div>
 <ul>
 <li><strong>Canal principal · Ticket desde el dashboard.</strong> El botón «Crear Ticket de Soporte», al pie del menú lateral de la Suite, es el canal principal para casos técnicos: un número que no responde, una carga rechazada, un dato que no cuadra. Queda registrado y tiene seguimiento, así que es el que deja trazabilidad de tu caso.</li>
-<li><strong>Teléfono de soporte: +51 982 278 100.</strong> Lunes a viernes, de 9:00 a. m. a 6:00 p. m.</li>
 <li><strong>WhatsApp · asistente de soporte con IA: <a href="https://wa.me/51989691266" target="_blank" rel="noopener">+51 989 691 266</a>.</strong> Escríbele para resolver dudas de curso, certificado y datos de registro; si no puede resolver tu caso, lo deriva al equipo.</li>
 <li><strong>Correo: soporte@musa.la.</strong> Para consultas del equipo administrador del programa.</li>
 <li><strong>Temas del programa · Tu contacto Musa.</strong> Para temas del programa antes que técnicos: fechas, alcance, nuevas campañas o coordinación de notificaciones.</li>
@@ -498,6 +497,9 @@ const ARTICULOS = [
 <h2>Si el chat se detiene</h2>
 <p>Revisa el artículo <a href="articulo.html#si-el-chat-no-responde">Qué hacer si el chat no responde</a>.</p>
 
+<h2>¿Tienes dudas sobre tu curso?</h2>
+<div class="note"><strong>¿Tienes una duda?</strong> Pregúntale al chatbot de soporte Musa por WhatsApp: <a href="https://wa.me/51989691266" target="_blank" rel="noopener">+51 989 691 266</a>.</div>
+
 <h2>Dudas sobre fechas o tu avance</h2>
 <p>Las dudas sobre fechas, políticas internas o tu propio avance se resuelven con los líderes o embajadores de campo de tu organización.</p>`
 },
@@ -529,6 +531,9 @@ const ARTICULOS = [
 </table>
 <div class="note warn"><strong>Salir sin haber terminado tiene un costo.</strong> Si no completaste el curso ni generaste tu constancia antes de salir, deberás realizar el curso completo de nuevo para poder certificarte.</div>
 <div class="note warn"><strong>Cuidado con resetbot en una ruta lineal.</strong> En una ruta lineal, <code>resetbot</code> borra tu progreso activo y tendrás que repetir todos los microcursos desde el inicio. Si estás cerca del final, avisa primero a tu líder o embajador de campo.</div>
+
+<h2>También puedes escribir al chatbot de soporte</h2>
+<div class="note"><strong>¿Tienes una duda?</strong> Pregúntale al chatbot de soporte Musa por WhatsApp: <a href="https://wa.me/51989691266" target="_blank" rel="noopener">+51 989 691 266</a>.</div>
 
 <h2>Paso 3 · Pide ayuda a tu líder</h2>
 <p>Si el problema continúa, avisa a tu líder o embajador de campo. Ellos pueden pedir una revisión y un reinicio técnico del número al equipo de soporte de Musa. El soporte de Musa atiende al equipo de tu organización que administra el programa, no directamente a los estudiantes.</p>`
