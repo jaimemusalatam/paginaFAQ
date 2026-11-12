@@ -14,6 +14,7 @@ const plain = h => h.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');
 const artCard = x => `<a class="art" href="articulo.html#${x.id}"><span class="art__ico">${x.ico}</span><span class="art__g">${x.guia}</span><span class="art__t">${esc(x.t)}</span><span class="art__d">${esc(x.d)}</span><span class="art__go">Leer artículo →</span></a>`;
 if ($('#arts')) $('#arts').innerHTML = ARTS.map(artCard).join('');
 if (!ARTS.length && $('#articulos')) $('#articulos').hidden = true;
+if (matchMedia('(max-width:520px)').matches) $('#q').placeholder = 'Busca tu duda…';
 $('#yr').textContent = new Date().getFullYear();
 
 function show(id){
