@@ -1,33 +1,57 @@
 const CATS = [
-  {id:'empezar', ico:'🚀', t:'Primeros pasos', d:'Crea tu cuenta y conoce la plataforma.', faqs:[
-    ['¿Cómo creo mi cuenta en Musa?','Ingresa a la plataforma, haz clic en “Crear cuenta” y completa tus datos con tu correo. Te enviaremos un enlace de confirmación.',true],
-    ['¿Cómo accedo a mi curso?','Inicia sesión y entra a “Mis cursos”. Ahí verás todos los programas a los que tienes acceso.',true],
-    ['¿Qué dispositivos puedo usar?','Musa funciona en computadora, tablet y celular desde cualquier navegador actualizado.']
+  {id:'whatsapp', ico:'📱', t:'Cuenta WhatsApp Business', d:'Requisitos y pasos para conectar tu línea.', faqs:[
+    ['¿Qué es una cuenta WABA y por qué la necesito?','Es la versión profesional de WhatsApp para empresas, verificada por Meta. Permite conectar chatbots y enviar mensajes masivos de forma segura. Tu ruta de aprendizaje vive dentro de WhatsApp, por eso tu organización necesita una.',true],
+    ['¿Qué requisitos debo cumplir?','Tres críticos:\n1) Portafolio Comercial (Meta Business Manager) validado: si tu empresa no está verificada, Meta puede cancelar la cuenta.\n2) Un número de teléfono nuevo, exclusivo para este fin y sin WhatsApp activo. No sirve el de la central ni uno ya en uso.\n3) Acceso de administrador del Business Manager para quien hace la vinculación.'],
+    ['¿Quién debe crear la cuenta?','Una persona con permisos de administrador del Meta Business Manager de tu organización. Normalmente es alguien de TI, de marketing digital o quien administre las redes corporativas.'],
+    ['¿Cómo se crea la cuenta paso a paso?','1) Define internamente bajo qué Portafolio Comercial se creará y con qué nombre visible.\n2) Compra una SIM física nueva y guárdala en un lugar seguro, a cargo de una persona identificada.\n3) Inicia sesión en tu Facebook con permisos de administrador, abre el enlace de Gupshup que te comparte Musa, elige «Crea una cuenta de WhatsApp Business» e ingresa el código SMS que llega al chip.'],
+    ['¿Qué nombre puede tener la cuenta?','El nombre visible debe coincidir con la identidad legal o comercial de la empresa. Meta no permite emojis ni símbolos.'],
+    ['¿Cómo evito que se caiga mi línea?','Recarga el chip según la política de tu operador (en Perú, cada 2 meses), no elimines el número del Business Manager, ten más de un administrador y guarda el chip físico: Meta puede pedir una reverificación por SMS en cualquier momento.']
   ]},
-  {id:'cuenta', ico:'👤', t:'Mi cuenta', d:'Contraseña, correo y datos personales.', faqs:[
-    ['Olvidé mi contraseña, ¿qué hago?','En la pantalla de inicio de sesión elige “¿Olvidaste tu contraseña?” y sigue las instrucciones enviadas a tu correo.',true],
-    ['¿Cómo cambio mi correo o mis datos?','Desde “Mi perfil” puedes editar tus datos. Si necesitas cambiar el correo de acceso, escríbenos a soporte.'],
-    ['¿Cómo elimino mi cuenta?','Solicítalo por correo a soporte@musa.la desde el email registrado y lo gestionaremos en un máximo de 5 días hábiles.']
+  {id:'despliegue', ico:'🚀', t:'Despliegue y comunicación', d:'Cómo lanzar tu programa para lograr adopción.', faqs:[
+    ['¿Cuál es la instrucción para el usuario final?','Guardar el número del chatbot como contacto y escribir únicamente «Hola». Todo lo demás lo guía el chat. Repite esa instrucción sin variaciones en cada pieza y cada mensaje.',true],
+    ['¿Cuáles son las fases de la campaña de comunicación?','Fase 1, Pre-lanzamiento (3 a 5 días antes): anunciar la ruta sin saturar.\nFase 2, Lanzamiento (día 1): generar la primera interacción masiva en el chatbot.\nFase 3, Seguimiento y cierre (hasta el cierre): mantener el avance, reactivar a quienes quedaron a medias y promover la descarga del certificado.'],
+    ['¿Qué incluye el kit gráfico de Canva?','Cuatro piezas, una por momento: 1) Ruta de aprendizaje, 2) Tips operativos, 3) Registro de curso nuevo con código QR y 4) Autoayuda y soporte. Crea tu copia con «Usar plantilla para un diseño nuevo» y personaliza fechas, logos, número del chatbot y QR. Pide el enlace a tu contacto Musa.'],
+    ['¿Para qué sirven los líderes o embajadores de campo?','Facilitan el onboarding y atienden las consultas internas sobre fechas, avances o políticas. En equipos distribuidos, la diferencia entre un 30 % y un 70 % de finalización suele estar en las personas que acompañan. Compártele a cada líder la Guía 06.'],
+    ['¿Qué debo revisar antes del lanzamiento?','Cuenta WABA verificada, accesos a la Suite probados, tipo de ruta confirmado (libre o lineal), kit de Canva personalizado, líderes informados, base de usuarios con celulares en formato internacional y la Pieza 1 difundida entre 3 y 5 días antes.'],
+    ['¿Qué pasa si publico la Pieza 4 en una ruta lineal?','En rutas lineales la palabra «Salir» no está disponible, y publicarla genera intentos fallidos y consultas innecesarias. Adapta o elimina esa palabra en la pieza antes de difundirla.']
   ]},
-  {id:'licencias', ico:'🎟️', t:'Licencias y accesos', d:'Activación, vigencia y transferencias.', faqs:[
-    ['¿Cómo activo mi licencia?','Ingresa el código recibido en “Activar licencia” dentro de tu perfil. El acceso se habilita al instante.',true],
-    ['¿Cuánto dura mi acceso?','La vigencia depende del programa contratado y se muestra en la ficha de cada curso.'],
-    ['¿Puedo transferir mi licencia a otra persona?','Las licencias son personales. Si necesitas reasignarla, contáctanos y evaluamos tu caso.']
+  {id:'dashboard', ico:'📊', t:'Dashboard (Suite Musa)', d:'Entrar a la Suite y entender cada vista.', faqs:[
+    ['¿Cómo ingreso a la Suite Musa?','Entra a suite.musa.la desde cualquier navegador, sin instalar nada. Tu usuario es el correo que registraste con Musa; la contraseña inicial te la entrega tu contacto Musa y el sistema te pedirá cambiarla en el primer ingreso.',true],
+    ['No puedo iniciar sesión con mi nueva contraseña','Evita el símbolo # al crearla: ese carácter genera errores de inicio de sesión. Puedes usar cualquier otro símbolo.'],
+    ['¿Qué muestra la vista General?','Finalización (promedio de avance y conclusión), Promedio (microcursos tomados por usuario), Estudiantes (usuarios activos en los últimos 30 días) y un gráfico de actividad diaria que cruza interacciones, registrados y notificaciones enviadas.'],
+    ['¿Dónde veo el NPS?','El NPS se mide directamente dentro del chat de WhatsApp, no en el bloque general del dashboard.'],
+    ['¿Por qué un estudiante nuevo aparece con 0 minutos de estudio?','El tiempo de estudio tarda un día en actualizarse. Quienes ingresaron hoy aparecerán con 0 minutos hasta el día siguiente; es el ciclo de consolidación del dato, no un error.'],
+    ['La búsqueda en Tracking no devuelve resultados','Amplía el filtro de fechas (viene en 7 días por defecto) y escribe el número en formato internacional, sin el signo + (por ejemplo, 51987654321).'],
+    ['¿Cómo agrego o quito accesos a mi curso?','En Configuración › Permisos, por celular o por documento de identidad. Para cargar una lista completa, sube un CSV sin encabezados ni columnas adicionales: una sola columna con los datos. Es el motivo más frecuente de cargas rechazadas.']
   ]},
-  {id:'aprendizaje', ico:'📚', t:'Cursos y aprendizaje', d:'Avance, evaluaciones y contenidos.', faqs:[
-    ['¿Cómo se calcula mi avance?','El avance se actualiza cuando completas cada lección y actividad del curso.'],
-    ['¿Cuántos intentos tengo en las evaluaciones?','Cada curso define sus intentos; lo verás indicado antes de iniciar la evaluación.'],
-    ['El video no carga, ¿qué hago?','Revisa tu conexión, actualiza el navegador y desactiva extensiones de bloqueo. Si persiste, envíanos una captura.']
+  {id:'reportes', ico:'📈', t:'Reportes', d:'Cómo leer el archivo descargable.', faqs:[
+    ['¿Por qué las pestañas del reporte no suman lo mismo?','Cada una cuenta algo distinto. Bienvenida: personas que escribieron «Hola» y no completaron el registro. Estudiantes: personas únicas registradas. Cursos: inscripciones por curso (quien toma tres microcursos suma tres veces).',true],
+    ['¿Qué significa la pestaña Bienvenida?','Reúne a quienes solo escribieron «Hola» y no completaron el registro, no aceptaron las políticas de privacidad o no empezaron ningún curso. Es tu lista natural de recuperación.'],
+    ['Un usuario repitió el curso pero sus fechas no cambian','Solo se guarda la primera interacción. Si un usuario repasa o vuelve a tomar el curso, lo único que se actualiza en tiempo real es su constancia. No es un error de carga.'],
+    ['¿Cómo calculo la tasa de finalización?','NF ÷ NE × 100, donde NF son los usuarios que finalizan al menos un curso y NE los que empiezan al menos uno. Ambos datos salen de la pestaña Estudiantes.'],
+    ['¿Cómo calculo el enganche?','NE ÷ NI × 100, donde NI son las personas en Estudiantes más las de Bienvenida. Indica de quienes llegaron al chat, cuántos arrancaron un curso.'],
+    ['¿Cómo interpreto enganche y finalización juntos?','Enganche alto con finalización baja: algo frena a la gente dentro del curso; revisa la pestaña Respuestas y refuerza con notificaciones. Enganche bajo: la gente llega al chat pero no arranca; usa Bienvenida como lista de recuperación y revisa la difusión.'],
+    ['¿Qué es la pestaña Mía · Asistente IA?','Es condicional: aparece solo si tu ruta de aprendizaje tiene un asistente de inteligencia artificial, y permite ver las conversaciones del usuario con la IA.']
   ]},
-  {id:'certificados', ico:'🏅', t:'Certificados', d:'Cómo obtenerlos y verificarlos.', faqs:[
-    ['¿Cómo obtengo mi certificado?','Al completar el 100% del curso y aprobar las evaluaciones, el certificado se habilita en “Mis certificados”.',true],
-    ['Mi nombre salió mal en el certificado','Corrige tu nombre en “Mi perfil” y escríbenos para que lo regeneremos.'],
-    ['¿Cómo verifico un certificado?','Cada certificado incluye un código o QR que valida su autenticidad.']
+  {id:'notificaciones', ico:'🔔', t:'Notificaciones', d:'Plantillas, aprobación y envíos.', faqs:[
+    ['¿Cuánto tarda en aprobarse una notificación?','Un día hábil de Musa más un día hábil de Meta. Cuenta dos días hábiles, no dos días: una solicitud del viernes por la tarde difícilmente estará lista antes del martes. Pide tus plantillas al inicio del programa.',true],
+    ['¿Qué tipos de notificación recomiendan?','Tres plantillas para cubrir un despliegue estándar: registro pendiente, recordatorio de avance y aviso de cierre. Las tres se dirigen a personas que ya interactuaron con el chatbot.'],
+    ['¿Puedo usar una notificación como primer contacto?','No. Si el usuario aún no conoce el número, el mensaje se percibe como spam; si unos cuantos lo reportan, la salud de tu cuenta WABA cae y Meta reduce tu límite diario. La bienvenida se da en el chat cuando escribe «Hola».'],
+    ['¿Cómo debo redactar el mensaje?','En tono de procedimiento: nombra el curso o programa, enuncia un hecho (avance, fecha, estado pendiente), frases cortas y neutras, sin emojis o máximo uno, sin urgencia fabricada y con un solo propósito. Botones descriptivos como «Continuar» o «Ver mi avance».'],
+    ['¿Qué límites técnicos tienen?','Texto: máx. 300 caracteres. Botones: máx. 20 caracteres. Imágenes: PNG o JPEG de hasta 2 MB (sugerido 700 × 700 px). Videos: máx. 12 MB.'],
+    ['Mi notificación no se envió, ¿qué reviso?','Lo más común es el nombre del archivo de imagen: si lleva tildes, eñes, espacios o caracteres especiales, no se envía. Usa solo letras sin tilde, números y guiones bajos (notificacion_cafe.png). Revisa también que los celulares estén en formato internacional.'],
+    ['¿Cómo envío una notificación masiva?','Programa grupos de máximo 2 000 usuarios, con 30 minutos de diferencia entre uno y otro, para respetar el límite de envíos de Meta por cada 24 horas.'],
+    ['¿Cómo mido si funcionó?','En Dashboard › Notificaciones, con el indicador «Alcance siguientes 24 horas»: usuarios que interactuaron con el chatbot después de recibir el mensaje. No hay trazabilidad individual.']
   ]},
-  {id:'pagos', ico:'💳', t:'Pagos y facturación', d:'Medios de pago y comprobantes.', faqs:[
-    ['¿Qué medios de pago aceptan?','Tarjetas de crédito/débito y transferencia bancaria. Para empresas también ofrecemos facturación.'],
-    ['¿Cómo solicito mi factura?','Envía tus datos de facturación a soporte@musa.la indicando el número de pedido.'],
-    ['¿Puedo pedir un reembolso?','Evaluamos cada caso según los términos del programa. Escríbenos dentro de los primeros 7 días.']
+  {id:'soporte', ico:'🛟', t:'Soporte y chat', d:'Qué hacer si el chat no responde.', faqs:[
+    ['¿Cómo contacto a soporte?','Canal principal: el botón «Crear Ticket de Soporte», al pie del menú lateral de la Suite. También puedes llamar al +51 982 278 100 (lunes a viernes, 9:00 a. m. a 6:00 p. m.), escribir a soporte@musa.la o a tu contacto Musa para temas del programa. Estos canales son para el equipo administrador, no para estudiantes.',true],
+    ['El chat no responde, ¿qué hago?','Nivel 1: si es la primera interacción, espera un minuto y vuelve a escribir «Hola»; si se detuvo en una lección, reenvía el último mensaje escribiendo la palabra que aparece dentro del botón. Nivel 2: palabras de autogestión («Salir» o «resetbot»). Nivel 3: crea un ticket para que Soporte revise y reinicie el número.',true],
+    ['¿Qué hacen «Salir» y «resetbot»?','«Salir» regresa al menú principal (solo en capacitaciones con menú abierto o multicurso). «resetbot» reinicia la sesión de la lección activa y el registro; sirve para destrabar la conversación o corregir datos personales. Debe escribirse dentro de un curso, no desde el menú principal.'],
+    ['¿Qué pasa si salgo de un curso sin terminarlo?','Si no completaste el curso ni generaste tu constancia, deberás realizar el curso completo de nuevo para certificarte. En rutas lineales, «resetbot» o un reinicio por soporte borra el progreso activo y hay que repetir todos los microcursos.'],
+    ['¿Cuál es la diferencia entre ruta lineal y ruta libre?','Ruta lineal: los cursos se completan en orden y «Salir» no está disponible. Ruta libre o con menú: el estudiante elige qué cursos tomar y en qué orden. Antes de dar una indicación, confirma qué tipo de ruta tienes.'],
+    ['¿Puedo cambiar mi nombre después de registrarme?','Sí, mientras no se haya emitido el certificado. Estando dentro de un curso, escribe «resetbot» para reiniciar el registro y corregir tus datos.'],
+    ['¿Cómo recibo mis constancias?','Llegan al chat de la ruta de aprendizaje como un enlace de descarga, al completar el curso y aprobar la evaluación.'],
+    ['¿Qué son los microcursos Musa y cómo inicio?','Son capacitaciones interactivas que se realizan por WhatsApp. Guarda el número del chatbot como contacto, escribe únicamente «Hola» y completa con cuidado tu registro: de ahí salen los datos de tu constancia.']
   ]}
 ];
 
@@ -37,7 +61,7 @@ const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(
 const item = (q,a,cat,hl) => {
   let qq = esc(q);
   if (hl) qq = qq.replace(new RegExp('('+hl.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig'),'<mark>$1</mark>');
-  return `<details><summary><span>${qq}${cat?`<span class="tagc">${esc(cat)}</span>`:''}</span></summary><div class="ans"><p>${esc(a)}</p></div></details>`;
+  return `<details><summary><span>${qq}${cat?`<span class="tagc">${esc(cat)}</span>`:''}</span></summary><div class="ans">${a.split('\n').map(l=>`<p>${esc(l)}</p>`).join('')}</div></details>`;
 };
 
 $('#cats').innerHTML = CATS.map(c => `<button class="cat" data-id="${c.id}"><span class="cat__ico">${c.ico}</span><span class="cat__t">${c.t}</span><span class="cat__d">${c.d}</span></button>`).join('');
